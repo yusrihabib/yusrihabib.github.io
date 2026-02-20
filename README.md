@@ -82,7 +82,7 @@
 <body>
 
 <header>
-  <h1>Video<span>Graphy</span></h1>
+  <h1>Yusri<span>Habib</span></h1>
   <nav>
     <a href="#home">Home</a>
     <a href="#galeri">Galeri</a>
@@ -91,9 +91,9 @@
 </header>
 
 <div class="hero" id="home">
-  <h2>Premium <span>Cinematic</span><br>Videography Portfolio</h2>
-  <p>Videografer profesional untuk event, brand, dan konten digital dengan kualitas visual premium.</p>
-  <a class="btn" href="https://wa.me/628XXXXXXXXX" target="_blank">WhatsApp Sekarang</a>
+  <h2>Muhammad <span>Yusri</span><br>Habib Portfolio</h2>
+  <p>hallo Saya Muhammad Yusri Habib, videografer profesional yang aktif sejak tahun 2020. Berpengalaman menangani berbagai proyek seperti wedding, prewedding, after movie, dan video angkatan sekolah, saya menghadirkan karya dengan pendekatan visual yang elegan, storytelling yang kuat, dan perhatian tinggi pada setiap detail. Setiap video dirancang untuk tidak hanya merekam momen, tetapi menghidupkan kembali cerita dan emosi di dalamnya.</p>
+  <a class="btn" href="https://wa.me/6287833372219" target="_blank">WhatsApp Sekarang</a>
 </div>
 
 <section id="galeri">
@@ -102,13 +102,18 @@
 
     <!-- GOOGLE DRIVE VIDEO -->
     <div class="video-card">
-      <iframe src="https://drive.google.com/file/d/FILE_ID/preview" allow="autoplay"></iframe>
-      <h4>Project Cinematic Event</h4>
+      <iframe src="https://drive.google.com/file/d/1D6z2SX1VzEjxvMrJzXJUVnjK3ZKJWQBS/view" allow="autoplay"></iframe>
+      <h4>Highlight video wedding</h4>
+    </div>
+
+    <div class="video-card">
+      <iframe src="https://drive.google.com/file/d/1cgSbSUK36N0EUrrTvUYnumgykw7814PY/view"></iframe>
+      <h4>highlight video wedding</h4>
     </div>
 
     <div class="video-card">
       <iframe src="https://drive.google.com/file/d/FILE_ID/preview"></iframe>
-      <h4>Brand Video</h4>
+      <h4>After Movie</h4>
     </div>
 
     <div class="video-card">
@@ -123,12 +128,12 @@
   <h3 class="section-title">Kontak</h3>
   <div class="contact">
     <p>Siap berkolaborasi? Hubungi saya langsung melalui WhatsApp untuk diskusi project.</p><br>
-    <a class="btn" href="https://wa.me/628XXXXXXXXX" target="_blank">Chat WhatsApp</a>
+    <a class="btn" href="https://wa.me/6287833372219" target="_blank">Chat WhatsApp</a>
   </div>
 </section>
 
 <footer>
-  © 2026 Premium Videography Portfolio · All Rights Reserved
+  © 2026 Portofolio Muhammad Yusri · All Rights Reserved
 </footer>
 
 </body>
