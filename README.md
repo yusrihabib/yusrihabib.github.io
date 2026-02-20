@@ -21,7 +21,7 @@
       flex-direction:column;
       justify-content:center;
       padding:0 60px;
-      background:linear-gradient(180deg,rgba(0,0,0,.55),#000),url('https://github.com/yusrihabib/yusrihabib.github.io/blob/main/IMG_0533.jpeg) center/cover fixed;
+      background:linear-gradient(180deg,rgba(0,0,0,.55),#000),url('assets/img/hero.jpg') center/cover fixed;
       background-position:60% 20%;
     }
     .hero h2{font-size:56px;max-width:760px;line-height:1.2}
