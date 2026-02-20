@@ -39,6 +39,10 @@
     footer{text-align:center;padding:40px 60px;border-top:1px solid #222;opacity:.6}
 
     @media(max-width:768px){header,.hero,section,footer{padding:24px}.hero h2{font-size:40px}nav{display:none}}
+  
+    /* Scroll Animation */
+    .reveal{opacity:0;transform:translateY(40px);transition:1s ease}
+    .reveal.active{opacity:1;transform:none}
   </style>
 </head>
 <body>
@@ -53,18 +57,29 @@
   </nav>
 </header>
 
-<section class="hero" id="home">
+<section class="hero reveal" id="home">
   <h2>Mengabadikan <span>Cerita</span><br>dalam Visual Cinematic</h2>
   <p>Saya Muhammad Yusri Habib, videografer profesional sejak 2020 yang berfokus pada video wedding, prewedding, after movie, dan video angkatan sekolah dengan pendekatan visual yang elegan dan berkelas.</p>
   <a class="btn" href="https://wa.me/6287833372219" target="_blank">Booking Sekarang</a>
 </section>
 
-<section id="about">
+<section class="reveal" id="about" style="background:linear-gradient(180deg,rgba(0,0,0,.85),rgba(0,0,0,.95)),url('https://drive.google.com/uc?id=1x3raU1UxaFBYCJ8yf7G1PpOjkTT4os9d') center/cover no-repeat;">
   <h3 class="section-title">About Me</h3>
-  <p class="about">Saya adalah Muhammad Yusri Habib, seorang videografer yang telah aktif sejak tahun 2020. Berpengalaman mengerjakan berbagai project video seperti wedding, prewedding, after movie, dan video angkatan sekolah. Setiap karya saya dikerjakan dengan fokus pada detail, emosi, dan storytelling untuk menghadirkan video yang bernilai dan berkesan.</p>
+  <p class="about">Saya adalah <strong>Muhammad Yusri Habib</strong>, seorang videografer profesional yang telah aktif sejak tahun 2020. Saya berpengalaman mengerjakan berbagai project video seperti <strong>wedding, prewedding, after movie</strong>, dan <strong>video angkatan sekolah</strong>. Setiap karya saya dikerjakan dengan pendekatan visual cinematic, perhatian pada detail, serta storytelling yang kuat untuk menghadirkan video yang bernilai dan berkesan.</p>
+  <br>
+  <p class="about"><strong>Pengalaman Profesional:</strong><br>
+• <strong>2020 – 2023</strong> · Freelance Videographer<br>
+&nbsp;&nbsp;Menangani berbagai project video wedding, prewedding, after movie, dan video angkatan sekolah.<br><br>
+• <strong>2024 – 2025</strong> · Videographer – Project by Historia<br>
+&nbsp;&nbsp;Bertanggung jawab dalam produksi video cinematic untuk wedding.<br>
+&nbsp;&nbsp;<a href="https://www.instagram.com/projectbyhistoria/?hl=id" target="_blank" style="color:#e10600">Instagram Project by Historia</a><br><br>
+• <strong>2025 – 2026</strong> · Video Editor – Nesnumoto<br>
+&nbsp;&nbsp;Berperan sebagai editor video untuk wedding highlights dan video full 15 menit 20 menit dan 30 menit.
+&nbsp;&nbsp;<a href="https://www.instagram.com/nesnumoto/" target="_blank" style="color:#e10600">Instagram Nesnumoto</a>
+</p>
 </section>
 
-<section id="works">
+<section class="reveal" id="works">
   <h3 class="section-title">Selected Works</h3>
   <div class="gallery">
     <div class="video-card">
@@ -78,11 +93,18 @@
     <div class="video-card">
       <iframe src="https://drive.google.com/file/d/1D6z2SX1VzEjxvMrJzXJUVnjK3ZKJWQBS/preview"></iframe>
       <h4>Highlight Wedding</h4>
+        <div class="video-card">
+      <iframe src="https://www.instagram.com/reel/DSpNczciZ1S/embed" allowfullscreen></iframe>
+      <h4>After Movie</h4>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/C-9LbpafXFA" allowfullscreen></iframe>
+      <h4>After Movie</h4>
     </div>
   </div>
 </section>
 
-<section id="contact">
+<section class="reveal" id="contact">
   <h3 class="section-title">Contact</h3>
   <div class="contact">
     <p>Tertarik bekerja sama atau ingin berdiskusi mengenai project video?</p><br>
@@ -93,6 +115,19 @@
 <footer>
   © 2026 Muhammad Yusri Habib · Videographer
 </footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.15 });
+
+  reveals.forEach(r => observer.observe(r));
+</script>
 
 </body>
 </html>
