@@ -75,7 +75,7 @@
   <a class="btn" href="https://wa.me/6287833372219" target="_blank">Booking Sekarang</a>
 </section>
 
-<section class="reveal" id="about" style="background:linear-gradient(180deg,rgba(0,0,0,.85),rgba(0,0,0,.95)),url('https://drive.google.com/uc?id=1x3raU1UxaFBYCJ8yf7G1PpOjkTT4os9d') center/cover no-repeat;">
+<section class="reveal" id="about" style="background:linear-gradient(180deg,rgba(0,0,0,.85),rgba(0,0,0,.95)),url('assets/img/IMG_20250911_192640.jpeg') center/cover no-repeat;">
   <h3 class="section-title">About Me</h3>
   <p class="about"><strong>Muhammad Yusri Habib</strong> adalah videographer profesional yang aktif sejak 2020. Berpengalaman dalam produksi video wedding, prewedding, after movie, dan video angkatan sekolah dengan fokus pada storytelling, detail visual, dan emosi yang kuat.</p>
   <br>
