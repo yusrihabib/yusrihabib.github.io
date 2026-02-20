@@ -110,16 +110,9 @@
       <iframe src="https://drive.google.com/file/d/1cgSbSUK36N0EUrrTvUYnumgykw7814PY/view"></iframe>
       <h4>highlight video wedding</h4>
     </div>
-<div class="video-card">
-  <iframe 
-    src="https://drive.google.com/file/d/1D6z2SX1VzEjxvMrJzXJUVnjK3ZKJWQBS/preview"
-    allow="autoplay">
-  </iframe>
-  <h4>Wedding Cinematic</h4>
-</div>
-
+    
     <div class="video-card">
-      <iframe src="https://drive.google.com/file/d/FILE_ID/preview"></iframe>
+      <iframe src="https://drive.google.com/file/d/12NJvY-KtwI2h9wYU32mqf8HU3oW6XTet/preview"></iframe>
       <h4>After Movie</h4>
     </div>
 
