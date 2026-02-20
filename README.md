@@ -15,10 +15,18 @@
     nav a{margin-left:32px;opacity:.7}
     nav a:hover{opacity:1;color:#e10600}
 
-    .hero{height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 60px;background:linear-gradient(180deg,rgba(0,0,0,.5),#000),url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308') center/cover}
-    .hero h2{font-size:60px;max-width:760px;line-height:1.2}
+    .hero{
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      padding:0 60px;
+      background:linear-gradient(180deg,rgba(0,0,0,.55),#000),url('https://drive.google.com/uc?id=1x3raU1UxaFBYCJ8yf7G1PpOjkTT4os9d') center/cover fixed;
+      background-position:60% 20%;
+    }
+    .hero h2{font-size:56px;max-width:760px;line-height:1.2}
     .hero h2 span{color:#e10600}
-    .hero p{max-width:520px;opacity:.8;margin:24px 0 40px}
+    .hero p{max-width:520px;opacity:.85;margin:24px 0 40px}
 
     .btn{padding:14px 36px;border:2px solid #e10600;color:#e10600;font-weight:600;width:fit-content;transition:.3s}
     .btn:hover{background:#e10600;color:#000}
@@ -28,19 +36,22 @@
 
     .about{max-width:760px;opacity:.85}
 
-    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px}
-    .video-card{background:#111;padding:16px;border-radius:14px;box-shadow:0 15px 40px rgba(0,0,0,.5);transition:.35s}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px}
+    .video-card{background:#111;padding:20px;border-radius:14px;box-shadow:0 15px 40px rgba(0,0,0,.5);transition:.35s}
     .video-card:hover{transform:translateY(-8px)}
     .video-card iframe{width:100%;height:210px;border:none;border-radius:10px}
     .video-card h4{margin-top:14px;font-weight:500}
-
-    .contact{max-width:520px}
+    .video-card p{opacity:.75;font-size:14px;margin-top:6px}
 
     footer{text-align:center;padding:40px 60px;border-top:1px solid #222;opacity:.6}
 
-    @media(max-width:768px){header,.hero,section,footer{padding:24px}.hero h2{font-size:40px}nav{display:none}}
-  
-    /* Scroll Animation */
+    @media(max-width:768px){
+      header,.hero,section,footer{padding:24px}
+      nav{display:none}
+      .hero{background-position:50% 10%}
+      .hero h2{font-size:36px}
+    }
+
     .reveal{opacity:0;transform:translateY(40px);transition:1s ease}
     .reveal.active{opacity:1;transform:none}
   </style>
@@ -52,6 +63,7 @@
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
+    <a href="#why">Why Me</a>
     <a href="#works">Works</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -59,75 +71,60 @@
 
 <section class="hero reveal" id="home">
   <h2>Mengabadikan <span>Cerita</span><br>dalam Visual Cinematic</h2>
-  <p>Saya Muhammad Yusri Habib, videografer profesional sejak 2020 yang berfokus pada video wedding, prewedding, after movie, dan video angkatan sekolah dengan pendekatan visual yang elegan dan berkelas.</p>
+  <p>Saya Muhammad Yusri Habib, videographer profesional sejak 2020 yang berfokus pada wedding, prewedding, after movie, dan video angkatan sekolah dengan pendekatan visual elegan dan berkelas.</p>
   <a class="btn" href="https://wa.me/6287833372219" target="_blank">Booking Sekarang</a>
 </section>
 
 <section class="reveal" id="about" style="background:linear-gradient(180deg,rgba(0,0,0,.85),rgba(0,0,0,.95)),url('https://drive.google.com/uc?id=1x3raU1UxaFBYCJ8yf7G1PpOjkTT4os9d') center/cover no-repeat;">
   <h3 class="section-title">About Me</h3>
-  <p class="about">Saya adalah <strong>Muhammad Yusri Habib</strong>, seorang videografer profesional yang telah aktif sejak tahun 2020. Saya berpengalaman mengerjakan berbagai project video seperti <strong>wedding, prewedding, after movie</strong>, dan <strong>video angkatan sekolah</strong>. Setiap karya saya dikerjakan dengan pendekatan visual cinematic, perhatian pada detail, serta storytelling yang kuat untuk menghadirkan video yang bernilai dan berkesan.</p>
+  <p class="about"><strong>Muhammad Yusri Habib</strong> adalah videographer profesional yang aktif sejak 2020. Berpengalaman dalam produksi video wedding, prewedding, after movie, dan video angkatan sekolah dengan fokus pada storytelling, detail visual, dan emosi yang kuat.</p>
   <br>
   <p class="about"><strong>Pengalaman Profesional:</strong><br>
-• <strong>2020 – 2023</strong> · Freelance Videographer<br>
-&nbsp;&nbsp;Menangani berbagai project video wedding, prewedding, after movie, dan video angkatan sekolah.<br><br>
-• <strong>2024 – 2025</strong> · Videographer – Project by Historia<br>
-&nbsp;&nbsp;Bertanggung jawab dalam produksi video cinematic untuk wedding.<br>
-&nbsp;&nbsp;<a href="https://www.instagram.com/projectbyhistoria/?hl=id" target="_blank" style="color:#e10600">Instagram Project by Historia</a><br><br>
-• <strong>2025 – 2026</strong> · Video Editor – Nesnumoto<br>
-&nbsp;&nbsp;Berperan sebagai editor video untuk wedding highlights dan video full 15 menit 20 menit dan 30 menit.
-&nbsp;&nbsp;<a href="https://www.instagram.com/nesnumoto/" target="_blank" style="color:#e10600">Instagram Nesnumoto</a>
-</p>
+  • <strong>2020 – 2023</strong> · Freelance Videographer<br>
+  • <strong>2024 – 2025</strong> · Videographer – Project by Historia<br>
+  • <strong>2025 – 2026</strong> · Video Editor – Nesnumoto</p>
+</section>
+
+<section class="reveal" id="why">
+  <h3 class="section-title">Why Choose Me</h3>
+  <div class="gallery">
+    <div class="video-card"><h4>🎬 Cinematic Storytelling</h4><p>Setiap video dibangun dengan alur cerita dan emosi.</p></div>
+    <div class="video-card"><h4>💍 Wedding Specialist</h4><p>Fokus pada momen sakral pernikahan.</p></div>
+    <div class="video-card"><h4>⏱️ Tepat Waktu</h4><p>Workflow rapi dan deadline terjaga.</p></div>
+    <div class="video-card"><h4>🤝 Profesional</h4><p>Nyaman diajak kerja sama dari awal hingga akhir.</p></div>
+  </div>
 </section>
 
 <section class="reveal" id="works">
   <h3 class="section-title">Selected Works</h3>
   <div class="gallery">
-    <div class="video-card">
-      <iframe src="https://drive.google.com/file/d/12NJvY-KtwI2h9wYU32mqf8HU3oW6XTet/preview" allow="autoplay"></iframe>
-      <h4>Highlight Wedding</h4>
-    </div>
-    <div class="video-card">
-      <iframe src="https://drive.google.com/file/d/1cgSbSUK36N0EUrrTvUYnumgykw7814PY/preview"></iframe>
-      <h4>Highlight Wedding</h4>
-    </div>
-    <div class="video-card">
-      <iframe src="https://drive.google.com/file/d/1D6z2SX1VzEjxvMrJzXJUVnjK3ZKJWQBS/preview"></iframe>
-      <h4>Highlight Wedding</h4>
-        <div class="video-card">
-      <iframe src="https://www.instagram.com/reel/DSpNczciZ1S/embed" allowfullscreen></iframe>
-      <h4>After Movie</h4>
-    </div>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/C-9LbpafXFA" allowfullscreen></iframe>
-      <h4>After Movie</h4>
-    </div>
+    <div class="video-card"><iframe src="https://drive.google.com/file/d/12NJvY-KtwI2h9wYU32mqf8HU3oW6XTet/preview"></iframe><h4>Highlight Wedding</h4></div>
+    <div class="video-card"><iframe src="https://drive.google.com/file/d/1cgSbSUK36N0EUrrTvUYnumgykw7814PY/preview"></iframe><h4>Highlight Wedding</h4></div>
+    <div class="video-card"><iframe src="https://drive.google.com/file/d/1D6z2SX1VzEjxvMrJzXJUVnjK3ZKJWQBS/preview"></iframe><h4>Highlight Wedding</h4></div>
+    <div class="video-card"><iframe src="https://www.instagram.com/reel/DSpNczciZ1S/embed"></iframe><h4>After Movie</h4></div>
+    <div class="video-card"><iframe src="https://www.youtube.com/embed/C-9LbpafXFA"></iframe><h4>After Movie</h4></div>
   </div>
 </section>
 
 <section class="reveal" id="contact">
   <h3 class="section-title">Contact</h3>
-  <div class="contact">
-    <p>Tertarik bekerja sama atau ingin berdiskusi mengenai project video?</p><br>
-    <a class="btn" href="https://wa.me/6287833372219" target="_blank">Hubungi via WhatsApp</a>
-  </div>
+  <p>Tertarik bekerja sama atau ingin berdiskusi mengenai project video?</p><br>
+  <a class="btn" href="https://wa.me/6287833372219" target="_blank">Hubungi via WhatsApp</a>
 </section>
 
-<footer>
-  © 2026 Muhammad Yusri Habib · Videographer
-</footer>
+<footer>© 2026 Muhammad Yusri Habib · Videographer</footer>
 
 <script>
-  const reveals = document.querySelectorAll('.reveal');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('active');
-      }
-    });
-  }, { threshold: 0.15 });
+  const reveals=document.querySelectorAll('.reveal');
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('active')})
+  },{threshold:.15});
+  reveals.forEach(r=>observer.observe(r));
 
-  reveals.forEach(r => observer.observe(r));
+  window.addEventListener('scroll',()=>{
+    const hero=document.querySelector('.hero');
+    hero.style.backgroundPositionY=`${20+window.scrollY*0.05}%`;
+  });
 </script>
-
 </body>
 </html>
